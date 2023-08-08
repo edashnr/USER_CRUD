@@ -1,0 +1,101 @@
+#{
+   box-sizing: border-box;
+}
+#:focus{
+    outline:none ;
+}
+body{
+    font-family: Arial;
+    background:hsl(231, 13%, 89%);
+    padding: 50px;
+
+}
+.login{
+    margin: 200px auto;
+    width: 600px;
+}
+.login-screen{
+    background-color: #fff;
+    padding: 50px;
+    border-radius:10px ;
+}
+.app-title{
+    text-align: center;
+    color: #4c4b4b;
+}
+.login-form{
+    text-align: center;
+}
+.control-group{
+    margin-bottom: 10px;
+}
+input{
+    text-align: center;
+    background-color: #cdc9c9;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 5px 0;
+    width: 250px;
+    transition: border .5s;
+}
+input:focus{
+    border: 2px solid #cdc9c9;
+    box-shadow: none;
+}
+.btn{
+    border: 2px solid transparent;
+    background: #2980b9;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin:0 auto;
+    margin-top: 5px;
+
+}
+btn:hover{
+    background-color: #2980b9;
+}
+
+/* Alert Styles */
+.alert {
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    color: #856404;
+}
+
+.alert-warning strong {
+    color: #c78300;
+}
+
+/* Close Button Styles */
+.btn-close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+}
+
+.btn-close:hover {
+    color: #000;
+    text-decoration: none;
+    opacity: 0.75;
+}

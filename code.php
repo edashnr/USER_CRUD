@@ -150,7 +150,7 @@ if (isset($_POST['giris'])) {
 
         if (mysqli_num_rows($query_run) > 0) {
             $_SESSION['message'] = "Giriş yapıldı";
-            header("Location: lisans.php");
+            header("Location: liste.php");
             exit(0);
         } else {
             $_SESSION['message'] = "Giriş Yapılamadı Bilgilerinizi Kontrol Ediniz";
